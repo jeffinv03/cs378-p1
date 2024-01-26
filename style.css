@@ -1,0 +1,62 @@
+body {
+  padding-top: 10px;
+}
+
+.subheading {
+  color: orange;
+  font-family: 'Pacifico', cursive;
+  margin-top: 0px;
+
+}
+
+.titleSub {
+  margin-top: 5px;;
+  font-family: 'Lucida Handwriting', 'cursive', sans-serif;
+}
+
+.images {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Add styles for the title, description, and price */
+.title {
+  font-size: 1.1em; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: .8em; /* Adjust the font size as needed */
+  margin-bottom: 8px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 70%; /* Set a specific width for the description */
+  font-weight: lighter;
+}
+
+.price {
+  font-size: 0.8em;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+/* Add styles for the "Add" button */
+.addButton {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 1px 10px; /* Adjust the padding for a smaller size */
+  border-radius: 10px; /* Adjust the border-radius for a round shape */
+  cursor: pointer;
+  font-size: 0.8em; /* Adjust the font size as needed */
+  margin-left: 160px; /* Adjust the margin to move it more to the right */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+}
+
+
+.price-container {
+  display: flex;
+  align-items: center;
+}
+
